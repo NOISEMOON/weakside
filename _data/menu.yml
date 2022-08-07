@@ -2,10 +2,10 @@
 # https://github.com/riggraz/no-style-please#customize-the-menu
 
 entries:
-  - title: thoughts
+  - title: 
     post_list: true
     url: false
-    entries: true
+    entries: false
 
 # ---- backup ----
 # entries:
