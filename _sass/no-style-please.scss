@@ -24,9 +24,11 @@ html, body { background-color: #f5f4f0; }
 
 html { height: 100%; }
 
+// font-family: "OFL Sorts Mill Goudy", "Noto Nastaliq Urdu", "My Noto Nastaliq Urdu", Georgia, STSong, serif;
+
 body {
   color: black;
-  font-family: STSong;
+  font-family: STSong, serif;
   font-size: 1.1rem;
   line-height: 1.6;
   margin: 0;
