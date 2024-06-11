@@ -2,7 +2,15 @@
 # https://github.com/riggraz/no-style-please#customize-the-menu
 
 entries:
-  - title: 
+  - title: links
+    url: false
+    entries:
+      - title: weibo
+        url: https://weibo.com/u/7383494480
+      - title: douban
+        url: https://www.douban.com/people/araell/
+
+  - title: archives
     post_list: true
     url: false
     entries: false
