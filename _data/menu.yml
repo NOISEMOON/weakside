@@ -9,6 +9,7 @@ entries:
         url: https://weibo.com/u/7383494480
       - title: douban
         url: https://www.douban.com/people/araell/
+      - title: araell@outlook.com
 
   - title: archives
     post_list: true
