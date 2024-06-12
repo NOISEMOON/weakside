@@ -20,7 +20,7 @@ body[a="dark"] { @include dark-appearance; }
 // bg color is also needed in html in order to
 // block body's background propagation
 // see: https://stackoverflow.com/a/61265706
-html, body { background-color: #c1c0bd; }
+html, body { background-color: #ffffff; }
 
 html { height: 100%; }
 
@@ -83,7 +83,7 @@ div.highlighter-rouge code {
 
 blockquote {
   font-style: italic;
-  border: thin solid black;
+  /* border: thin solid black; */
   padding: 1rem;
 
   p { margin: 0; }
