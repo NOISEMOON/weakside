@@ -7,7 +7,7 @@ description: > # description of the site (multiple lines allowed)
 
 permalink: /:slug.html
 
-favicon: "logo.png" # relative path to site's favicon
+favicon: "weakside/logo.png" # relative path to site's favicon
 
 assets:
   sources:
