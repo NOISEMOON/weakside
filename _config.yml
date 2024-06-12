@@ -1,9 +1,8 @@
 title: weakside # name of the site
 author: noisemoon # name of site's author
-email: floatingmech@gmail.com # email of site's author
+email: araell@outlook.com # email of site's author
 url: https://noisemoon.github.io/weakside/ # root address of the site
-description: > # description of the site (multiple lines allowed)
-  Not me.
+description: "You're trapped."
 
 permalink: /:slug.html
 
@@ -30,3 +29,5 @@ sass:
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
+  - jekyll-sitemap
+
