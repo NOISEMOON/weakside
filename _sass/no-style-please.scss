@@ -15,12 +15,12 @@ body[a="dark"] { @include dark-appearance; }
   body[a="auto"] { @include dark-appearance; }
 }
 
-@font-face {
-  font-family: 'NotoSansMono';
-  src: url('../../assets/fonts/NotoSansMono.ttf') format('truetype');
-  font-weight: normal;
-  font-style: normal;
-}
+// @font-face {
+//   font-family: 'NotoSansMono';
+//   src: url('../../assets/fonts/NotoSansMono.ttf') format('truetype');
+//   font-weight: normal;
+//   font-style: normal;
+// }
 
 // -------------------------------------------- //
 
@@ -33,7 +33,7 @@ html { height: 100%; }
 
 body {
   color: black;
-  font-family: "NotoSansMono", "Noto Sans Mono", monospace;
+  font-family: "Noto Sans Mono", monospace;
   font-size: 14px;
   line-height: 1.5;
   margin: 0px;
