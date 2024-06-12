@@ -15,6 +15,13 @@ body[a="dark"] { @include dark-appearance; }
   body[a="auto"] { @include dark-appearance; }
 }
 
+@font-face {
+  font-family: 'NotoSansMono';
+  src: url('../../assets/fonts/NotoSansMono.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
 // -------------------------------------------- //
 
 // bg color is also needed in html in order to
@@ -24,14 +31,12 @@ html, body { background-color: #ffffff; }
 
 html { height: 100%; }
 
-// font-family: "OFL Sorts Mill Goudy", "Noto Nastaliq Urdu", "My Noto Nastaliq Urdu", Georgia, STSong, serif;
-
 body {
   color: black;
-  font-family: monospace;
-  font-size: 1.0rem;
-  line-height: 1.7;
-  margin: 0;
+  font-family: "NotoSansMono";
+  font-size: 14px;
+  line-height: 1.5;
+  margin: 0px;
   min-height: 100%;
 }
 
@@ -43,9 +48,9 @@ h2, h3, h4, h5 { margin-top: 3rem; }
 
 hr { margin: 2rem 0; }
 
-p { margin: 1rem 0; }
+p { margin: 0.5rem 0; }
 
-li { margin: 0.4rem 0; }
+li { margin: 0.3rem 0rem; }
 
 *:target { background-color: yellow; }
 
@@ -94,7 +99,7 @@ blockquote {
 }
 
 img {
-  max-width: 100%;
+  max-width: 90%;
   display: block;
   margin: 0 auto;
 }
