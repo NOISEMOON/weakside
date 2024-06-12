@@ -83,10 +83,14 @@ div.highlighter-rouge code {
 
 blockquote {
   font-style: italic;
-  /* border: thin solid black; */
+  font-size: 12px; /* 字体大小 */
+  border: thin solid rgb(0, 0, 0);
   padding: 1rem;
-
-  p { margin: 0; }
+  margin: 5px auto; /* 居中对齐，适当的上下外边距 */
+  width: 80%; /* 或者你希望的具体宽度，例如 50% 或 300px */
+  line-height: 1.2; /* 行高 */
+  white-space: normal; /* 确保文本在空格处换行 */
+  overflow-wrap: break-word; /* 确保长单词也能换行 */
 }
 
 img {
