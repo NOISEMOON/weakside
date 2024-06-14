@@ -15,13 +15,6 @@ body[a="dark"] { @include dark-appearance; }
   body[a="auto"] { @include dark-appearance; }
 }
 
-// @font-face {
-//   font-family: 'NotoSansMono';
-//   src: url('../../assets/fonts/NotoSansMono.ttf') format('truetype');
-//   font-weight: normal;
-//   font-style: normal;
-// }
-
 // -------------------------------------------- //
 
 // bg color is also needed in html in order to
@@ -33,9 +26,9 @@ html { height: 100%; }
 
 body {
   color: black;
-  font-family: "Noto Sans Mono", monospace;
+  font-family: "Fira Code", monospace;
   font-size: 14px;
-  font-weight: 300;
+  font-weight: normal;
   line-height: 1.5;
   margin: 0px;
   min-height: 100%;
